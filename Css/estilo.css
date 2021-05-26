@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box; /* Inclui esta linha */
+}
     
 }
 
@@ -11,15 +13,16 @@ body {
 }
 
 .header {
-
     position: absolute;
     z-index: 100;
     width: 100%;
     display: flex;
     justify-content:  space-between;
     max-width: 1790px;
-    top: 28px;
-    left: 56px;
+    padding: 28px 56px; /* Inclui esta linha */
+    top: 0; /* Alterei esta linha */
+    left: 0; /* Alterei esta linha */
+}
     
 }
 
